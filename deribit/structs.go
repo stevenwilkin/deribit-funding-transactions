@@ -1,7 +1,7 @@
 package deribit
 
 type Transaction struct {
-	SessionRpl     float64 `json:"session_rpl"`
+	InterestPl     float64 `json:"interest_pl"`
 	Timestamp      int64   `json:"timestamp"`
 	Price          float64 `json:"price"`
 	InstrumentName string  `json:"instrument_name"`
